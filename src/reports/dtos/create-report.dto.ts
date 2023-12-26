@@ -10,7 +10,7 @@ import {
 export class CreateReportDto {
   @IsNumber()
   @Min(0)
-  @Max(10000000)
+  @Max(10000000000)
   price: number;
 
   @IsString()
